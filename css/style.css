@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-h1, h3, h4, a {
+h1, h3, h4, p, a {
   font-family: Arial;
 }
 
@@ -33,6 +33,25 @@ a {
   #products-content {
     flex-direction: column;
   }
+
+  #company-page {
+    flex-direction: column;
+  }
+
+  #cat-baking {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #cat-baking {
+    max-width: 40%;
+    margin-right: 20px;
+  }
+
+  #company-about {
+    padding: 100px;
+  }
 }
 
 #front-page-image {
@@ -62,4 +81,10 @@ a {
   align-items: center;
   flex-direction: column;
   margin: 20px;
+}
+
+#company-page {
+  display: flex;
+  margin: 30px;
+  align-items: center;
 }
