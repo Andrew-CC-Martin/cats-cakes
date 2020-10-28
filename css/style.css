@@ -32,11 +32,11 @@ button {
   border: none;
   border-radius: 5px;
   opacity: 50%;
-  transition: 0.3s;
 }
 
 button:hover {
   opacity: 100%;
+  transition: 0.3s;
 }
 
 footer {
