@@ -1,5 +1,12 @@
 body {
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1, h3, h4, p, a {
@@ -25,21 +32,16 @@ button {
   border: none;
   border-radius: 5px;
   opacity: 50%;
-  transition: 0.3s;
 }
 
 button:hover {
   opacity: 100%;
+  transition: 0.3s;
 }
 
 footer {
   text-align: center;
   margin: 10px;
-}
-
-#contact-footer {
-  position: relative;
-  top: 280px;
 }
 
 .blue-background {
